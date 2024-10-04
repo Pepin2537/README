@@ -7,7 +7,7 @@ import seaborn as sns
 st.title("Analisis Pengaruh Cuaca Terhadap Peminjaman Sepeda")
 
 # Membaca dataset dari lokal (ganti dengan path file dataset kamu)
-data_day = pd.read_excel('D:\Bangkit Pepin\Dashboard\day.xlsx')  # Pastikan file 'data.csv' ada di folder yang sama atau ganti dengan path absolut
+data_day = pd.read_excel('day.xlsx')  # Pastikan file 'data.csv' ada di folder yang sama atau ganti dengan path absolut
 
 # Menampilkan data
 st.write("Data yang dianalisis:")
